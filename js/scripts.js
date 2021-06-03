@@ -1,9 +1,8 @@
 $(document).ready(function() {
   $("form#triangle").submit(function(event) {
     const s1 = parseInt($("input#side1").val());
-    const s2 = parseInt$("input#side2").val();
-    const s3 = parseInt$("input#side3").val();
-
+    const s2 = parseInt($("input#side2").val());
+    const s3 = parseInt($("input#side3").val());
     if (s1>0 && s2>0 && s3>0) {
       let triangle;
       
